@@ -1,0 +1,36 @@
+.whole-ball{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content:center;
+  padding-top: 50px;
+}
+
+.wheel {
+width: 50vh;
+height: 50vh;
+padding-top: 5vh;
+animation: spin-motion 5s linear infinite;
+}
+
+.two-shadows-2-hover {
+box-shadow: 0px -3px 40.2px #D8ABFB, 10px 10px 48.4px rgba(108, 250, 207, .39);
+transform: scale(105%);
+}
+
+.w-container{
+z-index: 1;
+position: absolute;
+display: flex;
+}
+
+.circle{
+width: 60vh;
+height: 60vh;
+background-color: white;
+border-radius: 50%;
+z-index: 0;
+position: absolute;
+filter: blur(10px);
+display: flex;
+}

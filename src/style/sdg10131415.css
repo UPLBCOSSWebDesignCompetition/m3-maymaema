@@ -1,0 +1,34 @@
+#sdg10to15 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s all;
+    z-index: 1;
+    margin-left: -20px;
+}
+
+#sdg10to15 > section{
+    margin: 10%;
+}
+.long-scroll-title{
+    top: 0px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text-container {
+    padding: 10px; 
+}
+
+p.long-scroll-title {
+    margin-left: -20%;
+    font-size: 50px;
+    padding: 10px; 
+}
+
+.flower-sdg-cont{
+    display: flex;
+}

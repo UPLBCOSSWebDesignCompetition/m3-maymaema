@@ -1,0 +1,33 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.landing{
+  max-height: 100vh;
+  height: 100vh;
+  color: white;
+  
+}
+
+.header {
+}
+
+.type-container {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.header-text {
+  font-size: 11vh;
+}
+
+.best-plan {
+  font-style: italic;
+  padding-right: 4px;
+}
+
+.right-align {
+  margin-left: auto;
+}

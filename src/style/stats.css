@@ -1,0 +1,11 @@
+.value > :nth-child(1){
+    font-size:56px;
+    font-weight: bold;
+}
+.value{
+    text-align: left;
+}
+
+.value p {
+    margin: 0; /* Remove default margin */
+  }

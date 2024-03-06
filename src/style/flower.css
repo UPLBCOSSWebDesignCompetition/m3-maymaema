@@ -1,0 +1,56 @@
+.petal-container{
+    width: 400px;
+    height: 4800px;
+    z-index: -1;
+    position: sticky;
+}
+
+
+.petal {
+    border: 2px solid white;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: sticky;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .petal-hide{
+    transform: transtranslateX(-50%);
+  }
+
+  /* this ensures that the top and bottom petal are animated too */
+  .copy-petal{
+    transform: translate(10%, -250px);
+
+  }
+  
+  #petal1 {
+    opacity: 1;
+    top: 45%;
+    left: 50%;
+    transform: translate(-150px, -80%);
+    transition: 1s ease;
+    
+  }
+  
+  #petal2 {
+    top: 45%;
+    left: 50%;
+    transform: translate(10%, -250px);
+  }
+  
+  #petal3 {
+    top: 350px;
+    left: 50%;
+    transform: translate(30px, 30px);
+  }
+  
+  #petal4 {
+    opacity: 1;
+    transition: all 1s;
+    top: 370px;
+    left: 50%;
+    transform: translate(-80%, 6px);
+  }

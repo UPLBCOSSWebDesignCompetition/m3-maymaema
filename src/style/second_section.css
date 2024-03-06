@@ -1,0 +1,59 @@
+/* CSS for the second section are here */
+.second-section {
+  max-height: 1080px;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.plan-header-container {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+}
+
+.goal-count {
+  font-size: 70px;
+}
+
+.plan-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 30vh 0 30vh;
+  max-width: 1800px;
+}
+
+.count {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.plan-body {
+  margin: 148px 0 0 220px;
+  width: 65%;
+}
+
+.plan-body-text {
+  font-size: 23px;
+  width: 60%;
+  text-align: justify;
+}
+
+.plan-body-title {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.second-section-body {
+  display: flex;
+}
+
+.hidden {
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+}

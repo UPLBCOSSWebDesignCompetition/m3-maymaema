@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  /* declare imported font */
+  overflow-x: hidden;
+}
+.inner-shadow {
+  box-shadow: inset -10px 3px 10.9px #FFFFFF;
+}
+.two-shadows {
+  box-shadow: -49px 3px 62.2px #D8ABFB, 59px 4px 72.4px rgba(108, 250, 207, .39);
+}
+
+.two-shadows-3 {
+  box-shadow: -10px 3px 32.2px #D8ABFB, 24px 4px 52.4px rgba(108, 250, 207, .39);
+}
+
+
+
+.two-shadows-1 {
+  box-shadow: inset -59px 3px 142.2px #D8ABFB, inset 99px 4px 132.4px rgba(108, 250, 207, .39);
+}

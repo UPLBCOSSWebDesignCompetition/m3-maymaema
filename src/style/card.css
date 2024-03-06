@@ -1,0 +1,25 @@
+.card-border {
+    padding: 40px;
+    background-color: pink;
+    border-radius: 40px;
+    width: 280px;
+    background: rgb(238,174,174);
+    background: linear-gradient(180deg, rgba(109,69,152,0.5) 0%, rgba(119,33,214,0.5) 25%, rgba(170,67,111,0.5) 62%, rgba(197,57,152,0.5) 100%);
+}
+
+.ftf-card {
+    
+    background: rgb(229,229,229);
+    background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 42%, rgba(176,176,176,1) 100%);
+    width: 280px;
+    height: 380px;
+    border-radius: 40px;
+    border: black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    height: 280px;
+}

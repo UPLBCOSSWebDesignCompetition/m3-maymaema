@@ -1,0 +1,50 @@
+.sdg-section{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 780px;
+}
+
+.sdg-sec-img {
+    height: 1560px;
+    width: 600px;
+    max-height: 600px;
+    filter: grayscale(100%) brightness(1000%);
+}
+
+.sdg-sec-stats{
+    display: flex;
+    gap: 32px;
+    width: 20vw;
+    max-width: 700px;
+    margin-right: 10%;
+}
+
+.sdg-sec-text{
+    max-width: fit-content;
+    width: 500px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4; /* Adjust line height as needed */
+    margin-left: 350px;
+    margin-top: -10%;
+    text-align: right;
+  } 
+
+
+.sdg-sec-text { 
+    font-size: 24px;
+}
+
+
+.gradient-line {
+    height: 4px; /* Height of the line */
+    background: linear-gradient(to right, rgba(233, 170, 255, 100%), rgba(116, 253, 237, 100%), rgba(75, 245, 181, 100%));
+    border-radius: 2px; /* Half of the height to get rounded corners */
+    width: 0;
+    transition: width 1.0s ease; /* Smooth transition when width changes */
+    margin-left: 355px;
+    z-index: 1;
+  }
+  
